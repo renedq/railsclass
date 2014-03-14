@@ -1,0 +1,6 @@
+<h1>Bammmm!</h1>
+<%= form_for :bam do |f| %>
+  <%= f.label :name %>: <%= f.text_field :name %><br>
+  <%= f.radio_button :cred, 'cool', :checked => true %> Cool <br>
+  <%= f.radio_button :cred, 'not cool' %> Not Cool
+<% end %>
